@@ -1,0 +1,44 @@
+.EightBall {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    margin: 20px auto;
+    background-color: black; /* Default black color */
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  /* Styling for record-keeping section */
+  div {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  div p {
+    margin: 5px 0;
+  }
